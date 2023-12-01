@@ -9,6 +9,11 @@ import {
   AboutText,
   ValuesList,
   Item,
+  Openness,
+  Responsibility,
+  Innovation,
+  Quality,
+  ValueText,
 } from "./About.styled";
 
 export const About = () => {
@@ -37,28 +42,28 @@ export const About = () => {
       </AboutText>
       <ValuesList>
         <Item>
-          <p>Openness</p>
-          <p>to the world, people, new ideas and projects</p>
+          <Openness>Openness</Openness>
+          <ValueText>to the world, people, new ideas and projects</ValueText>
         </Item>
         <Item>
-          <p>Responsibility</p>
-          <p>
+          <Responsibility>Responsibility</Responsibility>
+          <ValueText>
             we are aware that the results of our work have an impact on our
             lives and the lives of future generations
-          </p>
+          </ValueText>
         </Item>
         <Item>
-          <p>Innovation</p>
-          <p>
+          <Innovation>Innovation</Innovation>
+          <ValueText>
             we use the latest technology to implement non-standard solutions
-          </p>
+          </ValueText>
         </Item>
         <Item>
-          <p>Quality</p>
-          <p>
+          <Quality>Quality</Quality>
+          <ValueText>
             we do not strive to be the first among others, but we want to be the
             best in our business
-          </p>
+          </ValueText>
         </Item>
       </ValuesList>
     </AboutSection>

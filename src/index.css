@@ -60,16 +60,19 @@ img {
   font-family: "CASaygonText";
   src: local("CASaygonTextRegular"),
     url("./stylesGlobal/fonts/CASaygonText-Regular.ttf") format("truetype");
+  font-weight: 400;
 }
 
 @font-face {
   font-family: "Oswald";
   src: local("Oswald"),
     url("./stylesGlobal/fonts/Oswald-Regular.ttf") format("truetype");
+  font-weight: 400;
 }
 
 @font-face {
   font-family: "FiraSans";
   src: local("FiraSans"),
     url("./stylesGlobal/fonts/FiraSans-Regular.ttf") format("truetype");
+  font-weight: 400;
 }
