@@ -1,8 +1,7 @@
-// import { Link } from "react-router-dom";
 import { useState } from "react";
 
-import logo from "../../images/logo.svg";
-import burgerMenuBtn from "../../images/burgerMenu.svg";
+import logo from "../../images/svg/logo.svg";
+import burgerMenuBtn from "../../images/svg/burgerMenu.svg";
 import { Modal } from "../modal/Modal";
 import {
   HeaderSection,
