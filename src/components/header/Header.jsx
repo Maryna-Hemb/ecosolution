@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import logo from "../../images/svg/logo.svg";
+import LogoIcon from "../../images/svg/logo.svg";
 import burgerMenuBtn from "../../images/svg/burgerMenu.svg";
 import { Modal } from "../modal/Modal";
 import {
@@ -18,7 +18,7 @@ export const Header = () => {
   return (
     <HeaderSection>
       <Logo>
-        <img src={`${logo}`} alt="logo" width={31} />
+        <img src={`${LogoIcon}`} alt="logo" width={31} />
         <LogoName>ecosolution</LogoName>
         <LogoText>
           <LogoSpan>green</LogoSpan>ergy <br /> for life

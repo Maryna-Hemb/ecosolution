@@ -30,10 +30,7 @@ export const Cases = () => {
       setWindowWidth(window.innerWidth);
     },
   };
-  const hendler = () => {
-    console.log("meee");
-  };
-  console.log(disableScroll);
+
   return (
     <section>
       <h2>Successful cases of our company</h2>
