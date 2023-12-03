@@ -1,6 +1,6 @@
 import ReactSwipe from "react-swipe";
-import { useState, useEffect } from "react";
-import cases from "../../data/cases.json";
+import { SyntheticEvent, useState, useEffect } from "react";
+import cases from "../../data/casesData.json";
 import { CasesCard } from "../cases/CasesCard";
 import SolarStation from "../../images/cases/solarStation.png";
 import ThermalModules from "../../images/cases/thermalModules.png";
