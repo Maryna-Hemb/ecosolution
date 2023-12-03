@@ -7,6 +7,7 @@ import { Electricity } from "../components/electricity/Electricity";
 import { Cases } from "../components/cases/Cases";
 import { FAQ } from "../components/FAQs/FAQ";
 import { ContactUs } from "../components/contactUs/ContactUs";
+import { Footer } from "../components/footer/Footer";
 
 export const LandingPage = () => {
   return (
@@ -20,6 +21,7 @@ export const LandingPage = () => {
           <Cases />
           <FAQ />
           <ContactUs />
+          <Footer />
         </MainLayout>
         <ScrollToHashElement />
       </Layout>
