@@ -23,7 +23,7 @@ export const About = () => {
       <Contacts>
         <Adress>{ContactsInf.address}</Adress>
         <li>
-          <a href="mailto:office@ecosolution.com">{ContactsInf.e_mail}</a>
+          <a href="mailto:office@ecosolution.com">{ContactsInf.email}</a>
         </li>
       </Contacts>
 
