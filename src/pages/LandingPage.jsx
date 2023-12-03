@@ -5,6 +5,8 @@ import { Main } from "../components/main/Main";
 import { About } from "../components/about/About";
 import { Electricity } from "../components/electricity/Electricity";
 import { Cases } from "../components/cases/Cases";
+import { FAQ } from "../components/FAQs/FAQ";
+import { ContactUs } from "../components/contactUs/ContactUs";
 
 export const LandingPage = () => {
   return (
@@ -16,6 +18,8 @@ export const LandingPage = () => {
           <About />
           <Electricity />
           <Cases />
+          <FAQ />
+          <ContactUs />
         </MainLayout>
         <ScrollToHashElement />
       </Layout>

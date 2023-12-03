@@ -1,5 +1,6 @@
 import windGeneration1x from "../../images/aboutSection/mobile@1x.png";
 import windGeneration2x from "../../images/aboutSection/mobile@2x.png";
+import ContactsInf from "../../data/contactsData.json";
 import {
   AboutSection,
   Contacts,
@@ -20,9 +21,9 @@ export const About = () => {
   return (
     <AboutSection>
       <Contacts>
-        <Adress>79005, Ukraine, Lvivstreet. Shota Rustaveli, 7</Adress>
+        <Adress>{ContactsInf.address}</Adress>
         <li>
-          <a href="mailto:office@ecosolution.com">office@ecosolution.com</a>
+          <a href="mailto:office@ecosolution.com">{ContactsInf.e_mail}</a>
         </li>
       </Contacts>
 
